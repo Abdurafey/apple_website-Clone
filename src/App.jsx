@@ -7,6 +7,7 @@ import Model from "./components/Model.jsx"
 import ScrollToTop from "./components/ScrollToTop.jsx"
 import * as Sentry from "@sentry/react";
 import Features from "./components/Features.jsx";
+import HowItWorks from "./components/HowItWorks.jsx";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Highlights/>
       <Model/>
       <Features/>
+      <HowItWorks/>
     </main>
   </BrowserRouter>    
   )
