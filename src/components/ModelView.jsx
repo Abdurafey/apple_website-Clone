@@ -1,5 +1,4 @@
 import {
-  Html,
   OrbitControls,
   PerspectiveCamera,
   View,
