@@ -5,8 +5,8 @@ import Highlights from "./components/Highlights.jsx"
 import Navbar from "./components/Navbar.jsx"
 import Model from "./components/Model.jsx"
 import ScrollToTop from "./components/ScrollToTop.jsx"
-
 import * as Sentry from "@sentry/react";
+import Features from "./components/Features.jsx";
 
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
       <Hero/>
       <Highlights/>
       <Model/>
+      <Features/>
     </main>
   </BrowserRouter>    
   )
